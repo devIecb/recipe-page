@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alice';
+    color: #573A37;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 140%;
+    color: #291B1A;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+body {
+    margin: 54px;
+    background-image: url('assets/bg-img.jpg');
+    background-size: cover;
+}
+
+
+.recipe {
+    height: 80%;
+    width: 800px;
+    margin: 48px auto;
+    padding: 24px;
+    border-radius: 24px;
+    background-color: #F0E8C2;
+}
+
+.cup-img img {
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.cup-text {
+    padding: 24px 24px;
+}
+
+.list {
+    padding: 4px 20px 0;
+}
+
+.message p {
+    text-align: center;
+    color: #F0E8C2;
+}
