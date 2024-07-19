@@ -24,7 +24,7 @@ p {
 
 body {
     margin: 54px;
-    background-image: url('assets/bg-img.jpg');
+    background-image: url("../assets/bg-img.jpg");
     background-size: cover;
 }
 
