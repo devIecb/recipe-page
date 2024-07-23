@@ -29,7 +29,7 @@ body {
 }
 
 
-.recipe {
+.container {
     height: 80%;
     width: 800px;
     margin: 48px auto;
@@ -38,20 +38,19 @@ body {
     background-color: #F0E8C2;
 }
 
-.cup-img img {
+.page img {
     border-radius: 16px;
-    margin-bottom: 24px;
 }
 
-.cup-text {
-    padding: 24px 24px;
+.main {
+    padding: 24px;
 }
 
 .list {
     padding: 4px 20px 0;
 }
 
-.message p {
+#credits p {
     text-align: center;
     color: #F0E8C2;
 }
