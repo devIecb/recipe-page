@@ -2,23 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Alice';
+    font-family: "Alice", serif;
     color: #573A37;
+    line-height: 150%;
 }
 
 h1 {
     font-size: 40px;
     line-height: 140%;
-    color: #291B1A;
 }
 
 h2 {
-    font-size: 1.5rem;
-    line-height: 150%;
+    font-size: 24px;
 }
 
-p {
-    font-size: 1rem;
+h1,
+h2 {
+    color: #291B1A;
+    margin-bottom: 4px;
     line-height: 150%;
 }
 
@@ -27,7 +28,6 @@ body {
     background-image: url("../assets/bg-img.jpg");
     background-size: cover;
 }
-
 
 .container {
     height: 80%;
@@ -43,7 +43,7 @@ body {
 }
 
 .main {
-    padding: 24px;
+    padding: 24px 24px;
 }
 
 .list {
@@ -53,4 +53,8 @@ body {
 #credits p {
     text-align: center;
     color: #F0E8C2;
+}
+
+#credits img {
+    vertical-align: middle;
 }
